@@ -10,4 +10,16 @@ package inheritanceBangundatar;
  */
 public class Persegi extends BangunDatar {
    float sisi; 
+   @Override
+   float luas(){
+       float luas = sisi*sisi;
+       System.out.println("Luas Persegi = " + luas);
+       return luas;
+   }
+   @Override
+   float keliling(){
+       float keliling = sisi*4;
+       System.out.println("Kelliling Persegi = " + keliling);
+       return keliling;
+   }
 }
