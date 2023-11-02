@@ -29,18 +29,23 @@ public class main {
         
         //menunjukkan inheritance
         bangundatar.luas();
-        bangundatar.keliling();
-        
         persegi.luas();
+        bangundatar.keliling();
         persegi.keliling();
         
+        bangundatar.luas();
         persegipanjang.luas();
+        bangundatar.keliling();
         persegipanjang.keliling();
         
+        bangundatar.luas();
         segitiga.luas();
+        bangundatar.keliling();
         segitiga.keliling();
         
+        bangundatar.luas();
         lingkaran.luas();
+        bangundatar.keliling();
         lingkaran.keliling();
     }
 }
