@@ -11,4 +11,17 @@ package inheritanceBangundatar;
 public class Segitiga extends BangunDatar{
     float tinggi;
     float alas;
+    
+     @Override
+   float luas(){
+       float luas = 1/2 * (alas*tinggi);
+       System.out.println("Luas Segitiga = " + luas);
+       return luas;
+   }
+   @Override
+   float keliling(){
+       float keliling = alas*3;
+       System.out.println("Kelliling Segitiga = " + keliling);
+       return keliling;
+   }
 }
